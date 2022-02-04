@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Orelega+One&family=Raleway:wght@300&family=Roboto:wght@100&display=swap');
+
 #gradiente{
     background-color: #f39f86;
     background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
@@ -61,105 +64,40 @@
 }
 
 #gradienteNosotros{
-    background-color: #f9bf8f;
-    background-image: linear-gradient(300deg, pink,skyblue);
-}
-
-.hTS
-{
-  background-image: url(https://i.insider.com/6092f10a34af8d001859b714?width=700);
-  padding: 5px 2px 5px 2px;
-  border: black;
-  border-style: outset;
-}
-
-.h1TS{
-  text-align: center;
-  color: white;
-  font-family: 'Roboto' , sans-serif;
-  font-size: 40px;
-}
-
-.pTS{
-  padding: 20px 20px 20px 20px;
-  margin: 5px 2px 5px 2px;
-  text-align: center;
-  font-family: 'Roboto' sans-serif;
-  font-size: 30px; 
-}
-.p2TS{
-  padding: 30px 30px 30px 30px;
-  margin: 10px 5px 10px 5px;
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.VolverTS{
-  color: white;
-  font-size: 18px;
+    background-color: #21d190;
+    background-image: linear-gradient(315deg, #21d190 0%, #d65bca 74%);
 }
 
 
-#headerCF{
-    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/scary-kid-books-1626185704.png?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*);
-    border: black;
-    border-style: outset;
-    margin: 15px 20px 15px 20px;
-}
-.hCienciaFiccion{
-    font-family: 'Raleway', sans-serif;
-    font-style: bold;
-    color:orangered;
-     margin-bottom: 20px;
-    font-size: 45px;
+#nosotros{
+    padding: 50px;
+    font-family: 'Orelega', sans-serif;
     text-align: center;
 }
-.contenidoCF{
-    font-family:'Raleway' , sans-serif;
+
+#nosotros2{
+    border-style:double;
+    border-color: black;
+    background-color: #f9c5d1;
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);;
 }
 
-.headerMangas{
-    background-image: url(https://previews.123rf.com/images/gritsalak/gritsalak1803/gritsalak180300002/97064109-fondo-de-l%C3%ADneas-de-velocidad-de-c%C3%B3mics-y-manga-acci%C3%B3n-de-superh%C3%A9roe-fondo-de-explosi%C3%B3n-ilustraci%C3%B3n-d.jpg);
-    border: black;
-    border-style: outset;
-    margin: 15px 20px 15px 20px
-   }
-   
-.h1Mangas{
-     font-family: 'Orolega', sans-serif;
-     color: cornsilk;
-     text-align: center;
-   }
- 
- .pMangas{
-   padding: 15px 15px 15px 15px;
-   margin: 10px 10px 10px 10px;
-   text-align: center;
-   font-size: 30px;
-   font-family: 'Orelega', sans-serif;
- }
+#mangaDisplay{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
 
-
- .headerNosotros{
-    background-image: url(https://wallpapercave.com/wp/wp4728905.png);
-    padding: 30px 15px 30px 15px;
-    border: violet;
-    border-style: outset;
-  }
-  
-  .hNosotros{
+#manga{
+    padding: 50px;
+    background-image:url(https://c.wallhere.com/photos/99/cb/manga_anime-1879243.jpg!d);
+    color: red;
+    font-family: 'Roboto' , sans-serif;
     text-align: center;
-    font-family: 'Orolega' sans-serif;
-    font-size: 30px;
-  }
-  
-  .pNosotros{
-    background-image: url(https://cutewallpaper.org/22/pink-kawaii-aesthetic-wallpapers/1546072.jpg);
-    padding: 40px 40px 40px 40px;
-    margin: 15px 15px 15px 15px ;
-    text-align: center;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-  }
+    backdrop-filter: blur(3px);
+}
